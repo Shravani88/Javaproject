@@ -1,0 +1,22 @@
+package com.constructorchaining;
+
+class B {
+	B()
+	{
+		this(10);
+		System.out.println("from B()");
+	}
+	B(int i)
+	{
+		
+		System.out.println("from B(int)");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		B ob1= new B();
+	    B ob2=new B(10);
+
+
+	}
+
+}
